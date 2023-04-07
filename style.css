@@ -1,0 +1,125 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* h1見出し */
+h1 {
+  color: #ffffee;/* フォントの色 */
+  font-size: 90px;/* フォントの大きさ */
+  font-family: lobster;/* フォントの種類 */
+  text-align: center;/* 文字・画像を中央にそろえる */
+  padding: 20px;/* 内側の余白 */
+  margin: 30px;/* 外側の余白 */
+  border-bottom: solid;/* 線の種類 */
+  border-color: #ffffee;/* 線の色 */
+  border-position:center;
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(img/C61.jpg);/* 背景画像 */
+  height: 450px;/* 高さ */
+  padding-top: 150px;/* 上がわの余白 */
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-color:#525252;
+  background-position:center 100px;
+}
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.top {
+  background-color: #ffffee;/* 背景の色 */
+  color: #663300;
+  padding: 30px;
+  margin-top:100px;
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+/* 段落 */
+.top p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  height: 300px;
+}
+
+
+.サイト紹介{
+  font-size:20px;
+  font-color:#ffffff;
+}
+
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.photo {
+  padding: 30px;
+  background-color:#c0c0c0;
+}
+
+/* h2見出し */
+.photo h2 {
+  color: #4169e1;
+  border-color: #ffcc11;
+}
+
+/* h3見出し */
+.photo h3 {
+  color: #4169e1;
+}
+iffreme{
+  margin:10px;
+}
+/* 段落 */
+.photo p {
+  color: #ffffff;
+  clear: left;/* 画像や箱の回り込みをやめる */
+}
+
+
+/* 小さな箱 */
+.small {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+  display:inline-block;
+}
+
+/* 魅力 */
+.charm h2{
+  color: #4169e1;
+}
+.charm p{
+  color:#87481d;
+}
+.charm{
+  background-color:#c0c0c0;
+}
+
+
+.finish{
+  background-color:#87ceeb;
+}
